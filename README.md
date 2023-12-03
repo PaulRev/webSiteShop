@@ -1,8 +1,7 @@
-# websiteShop
- website shop: Model Copy/Modelo de pagina web realizado en clases.
- website shop: Model Copy/Web page model made in classes.
- Updated 
- **En proceso**
-[![web.png](https://i.postimg.cc/C5PVmWBP/web.png)](https://postimg.cc/BPKyv7CH)
-[![movilnoo.png](https://i.postimg.cc/Pqsn3bJj/movilnoo.png)](https://postimg.cc/xXRZqzLx)
-[![movil.png](https://i.postimg.cc/xdvDWkNb/movil.png)](https://postimg.cc/06yBSyf8)
+<h1>Website Shop</h1>
+<p>
+   Website shop: Diseño de Pagina Web/Website Shop.
+   <br> <strong> Diseño web adaptable </strong>
+</p>
+<br>
+[![Sin-t-tulo.png](https://i.postimg.cc/zfCKbK0Y/Sin-t-tulo.png)](https://postimg.cc/mcrtKcvm)
