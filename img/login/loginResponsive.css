@@ -1,0 +1,38 @@
+/* responsive */
+
+@media (width <= 780px) {
+
+    body{
+      background-color: rgba(0, 0, 0, 0.138);
+      
+    }
+
+    .container-login {
+      overflow: hidden;
+      box-shadow: none;
+      background: linear-gradient(rgba(34, 33, 33, 0.794),rgba(20, 19, 19, 0.372)), url(img/fondLogin.jpeg);
+      background-position: center;
+      background-size: cover;
+    }
+    
+ 
+  }
+
+
+
+@media screen and (max-width: 780px) {
+    .container-login {
+      overflow: hidden;
+    }
+    .cont-bgimg-login {
+      position: absolute;
+      top: -50px;
+      overflow: hidden;
+    }
+    .cont-bgimg-login img {
+      width: 0px;
+    }
+    .login {
+      width: 350px;
+    }
+  }

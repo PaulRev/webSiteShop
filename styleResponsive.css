@@ -1,0 +1,248 @@
+/* <-------------STYLE RESPONSIVE-------------> */
+
+
+/* >400px a 600px */
+@media (width > 400px) {  
+    .menu{
+        width: 20%;
+    }
+    .menu img{
+        width: 40%;
+        cursor: pointer;
+    }
+
+    .logo{
+        width: 30%;
+    }
+    .logo img{
+        width: 50%;
+    }
+    /*  */
+    .btnIniciar{
+        width: 50%;
+       
+    }
+    .btnIniciar button {
+        width: 40%;
+        height: 50%;
+        border: none;
+        border-radius: 10px;
+        outline: solid var(--colorNoPrice);
+        margin-left: 40px;
+    }
+    .btnIniciar button:hover {
+       box-shadow: 0 0 7px 0 ;
+    }
+    .btnIniciar button img{
+        width: 50%;
+        padding: 0px 5px;
+    }
+
+}
+
+
+/* >600px a 1200px */
+@media (width > 600px) {  
+    /* header */
+    .menu{
+        width: 10%;
+    }
+    .menu img{
+        width: 30%;
+        cursor: pointer;
+    }
+    .logo{
+        width: 20%;
+    }
+    .logo img{
+        width: 40%;
+    }
+
+    .inputBuscar{
+        width: 50%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .inputBuscar input{
+        width: 70%;
+        height: 30%;
+        border: none;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.59);
+        border-radius: 2px;
+        
+    }
+    .seachClass{
+        background-color: rgba(78, 158, 158, 0);
+        top: 34px;
+        right: 15%;
+        padding: 5px;
+        border-left: solid var(--colorNoPrice);
+        height: 29px;
+        position: absolute;
+    }
+
+
+    .btnIniciar{
+        width: 30%;
+    }
+    .btnIniciar button {
+        width: 20%;
+        height: 50%;
+        border: none;
+        border-radius: 10px;
+        outline: solid var(--colorNoPrice);
+        margin-left: 40px;
+    }
+    .btnIniciar button img{
+        width: 70%;
+        padding: 0px 5px;
+    }
+
+    /* NAV */
+    .nav{
+        background-color: rgb(0, 0, 0);
+        width: 10%;
+        height: 100%;
+        position: absolute;
+        /* display: none; */
+        z-index: 2;
+    }
+    .nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 50px;
+    }
+ 
+
+    /* COntainer ProductosImgs */
+    .containerProductsImg{
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .cards{
+        background-color:rgb(255, 255, 255);
+        width: 30%;
+        height: 550px;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.477);
+    }
+    .cards img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color:linen;
+        width: 80%;
+    }
+
+
+
+
+    /* FOOTER */
+    .footer{
+        width: 100%;
+        height: 200px;
+    }
+    .redesSociales{
+        gap: 10px;
+        padding-left: 50px;
+    }
+}
+
+
+
+/* >1240px a ---px */
+@media (width > 1240px) {  
+    /* header */
+    .menu{
+        width: 10%;
+    }
+    .menu img{
+        width: 30%;
+        cursor: pointer;
+    }
+    .logo{
+        width: 20%;
+    }
+    .logo img{
+        width: 30%;
+        
+    }
+
+    .inputBuscar{
+        width: 50%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputBuscar input{
+        width: 70%;
+        height: 30%;
+        border: none;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.59);
+        border-radius: 2px;
+    }
+
+
+    .btnIniciar{
+        width: 30%;
+    }
+    .btnIniciar button {
+        width: 20%;
+        height: 50%;
+        border: none;
+        border-radius: 10px;
+        outline: solid var(--colorNoPrice);
+        margin-left: 40px;
+    }
+    .btnIniciar button img{
+        width: 50%;
+        padding: 0px 5px;
+    }
+
+    /* contCarrusel */
+    .caruselIMG{
+       /* display: none; */
+       height: 1000px;
+    }
+    .caruselIMG img{
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+       
+    }
+   
+ 
+
+    /* COntainer ProductosImgs */
+    .containerProductsImg{
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .cards{
+        background-color:rgb(255, 255, 255);
+        width: 20%;
+        height: 660px;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.477);
+    }
+    .cards img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color:linen;
+        width: 80%;
+    }
+
+}

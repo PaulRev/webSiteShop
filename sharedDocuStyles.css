@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+:root{
+    --moradoT: #a81b8d;
+    --colorNoPrice: rgba(118, 117, 117, 0.391);
+    --dShadowLogo:rgba(255, 0, 0, 0.374);
+    --bgButtonP: rgb(201, 44, 172);
+    --colorButtonP:rgb(253, 212, 47);
+}
+
+/* STYLE FLeX */
+.stylesFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

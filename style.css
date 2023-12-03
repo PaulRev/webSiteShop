@@ -1,0 +1,198 @@
+
+/* ------------------ */
+.topLineContainer{
+    background: var(--moradoT);
+    width: 100%;
+    height: 30px;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-bottom:solid var(--moradoT);}
+.menu{
+    width: 20%;
+}
+.menu img{
+    width: 50%;
+    cursor: pointer;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 80%;
+    filter: drop-shadow(1px 0 2px  var(--moradoT));
+}
+
+.inputBuscar{
+    width: 20%;
+    display: none;
+}
+
+.btnIniciar{
+    width: 50%;
+   
+}
+.btnIniciar button {
+    width: 40%;
+    height: 40%;
+    border: none;
+    border-radius: 10px;
+    outline: solid var(--colorNoPrice);
+    margin-left: 40px;
+}
+.btnIniciar button:hover {
+   box-shadow: 0 0 7px 0 ;
+}
+.btnIniciar button img{
+    width: 50%;
+}
+
+/* NAV */
+.nav{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    z-index: 2;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nav ul li{
+    text-align: center;
+    margin-left: -36px;
+    margin-top: 20px;
+}
+.nav ul li a{
+    color: white;
+}
+.nav ul li a:hover{
+    color:var(--moradoT);
+}
+
+
+.navllamadoT{
+    display: block;
+}
+
+
+/* CAROUSEl *B* */
+.contCarrusel{
+    width: 100%;
+   
+}
+
+/* <-----MAIN-----> */
+.main{
+    width: 100%;
+}
+.productsTitle{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.galeriaProducts{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(254, 254, 254);
+    gap: 5px;
+}
+.galeria{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    margin: 5px;
+    color: black;
+    font-weight: 600;
+    transition: 1s;
+}
+.galeria:hover{
+    cursor: pointer;
+    color: var(--moradoT);
+    text-decoration: underline 3px;
+}
+
+
+/* containerProducts--Imgs--INFO */
+.containerProductsImg{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cards{
+    background-color:rgb(255, 255, 255);
+    width: 70%;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.477);
+}
+.cards img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:linen;
+    width: 80%;
+}
+
+.infoProduct{
+    flex-direction: column;
+    line-height: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.priceAnterior{
+    text-decoration-line: line-through;
+    color: var(--colorNoPrice);
+}
+.btnProduct{
+    
+    border-radius: 10px;
+    border: none;
+    background:var(--bgButtonP);
+    font-weight: 400;
+    color: var(--colorButtonP);
+    padding: 5px 10px;
+}
+.btnProduct:hover{
+    color: rgb(255, 204, 0);
+}
+
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    height: 100px;
+}
+.redesSociales{
+    background-color: rgba(127, 255, 212, 0);
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 10px;
+    border-right: solid 2px beige;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(8, 102, 255);
+}

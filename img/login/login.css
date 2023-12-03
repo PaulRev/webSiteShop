@@ -1,0 +1,147 @@
+:root{
+    --moradoT: #a81b8d;
+    --colorNoPrice: rgba(118, 117, 117, 0.391);
+    --dShadowLogo:rgba(255, 0, 0, 0.374);
+    --bgButtonP: rgb(201, 44, 172);
+    --colorButtonP:rgb(253, 212, 47);
+}
+body{
+    margin: 0;
+}
+
+.container{
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+/* ---- */
+.container-login{
+    display: flex;
+    height: 80%;
+    flex-direction: row;
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 8px 8px -1px rgba(110, 1, 1, 0) ;
+    -webkit-box-shadow: 5px 8px 8px -1px rgba(47, 47, 47, 0.934);
+    -moz-box-shadow: 5px 8px 8px -1px rgba(40, 39, 39, 0.998);
+}    
+
+.cont-bgimg-login {
+    background: linear-gradient(rgba(34, 33, 33, 0.794),rgba(20, 19, 19, 0.372)), url(img/fondLogin.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+    .cont-bgimg-login img{
+        width: 200px;
+        filter: drop-shadow(0 10px 10px rgb(250, 250, 250));
+        position: absolute;
+        top: 25%;
+    }    
+    
+    .cont-bgimg-login button{
+        background-color: #0404041f;
+        border: 1px solid rgba(255, 254, 254, 0.822);
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.876);
+        transition: 2s;
+        letter-spacing: 2px;
+
+    }
+        .cont-bgimg-login button:hover{
+            border: solid 2px rgba(0, 0, 0, 0);
+        }
+
+.login{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .img-top_batman{
+        background-color: rgba(14, 89, 154, 0);
+        display: flex;
+        justify-content: center;
+    }   
+        .img-top_batman img{
+            width: 70px;
+        }
+        .img-top_batman img:hover{
+            filter: drop-shadow(0 10px 10px rgba(119, 118, 118, 0.423));
+            cursor: pointer;
+        }
+        
+    h2{
+        color:var(--moradoT);
+        letter-spacing: 1px;
+        filter: blur(0.7px);
+        font-size: 40px;
+        text-align: center;
+        user-select: none;
+    }    
+
+    
+    .login form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+        .inputs{
+            width: 90%;
+            height: 35px;
+            background-color: #0c1e266d;
+            border: solid #6b6d6e00;
+            box-shadow: 0 5px 10px 1px rgba(255, 253, 253, 0.18) inset;
+            color: white;
+            border-radius: 5px;
+           
+        }
+            .inputs::placeholder{
+                color: rgba(255, 255, 255, 0.787);
+                letter-spacing: 1px;
+                position: absolute;
+                left: 10px;
+            }
+
+        
+        button{
+            width: 90%;
+            height: 40px;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            font-size: 15px;
+        }  
+            .btnlogin{
+                color: #218b46;
+                width: 50%;
+                height: 45px;
+                border-radius: 10px;
+                background-color: #0c1d25;
+                border: solid 1px #e4e7e91f;
+                font-size: 18px;
+            }      
+        
+            .btnFacebook{
+                background-color: rgb(1, 76, 110);
+                border: solid  rgb(1, 76, 110);
+            }
+                
+            .btnTwitter{
+                background-color: rgb(1, 166, 243);
+                border: solid  rgb(1, 166, 243);
+            }   
+            
